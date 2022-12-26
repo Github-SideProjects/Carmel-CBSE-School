@@ -14,8 +14,12 @@
 
 .header_name{
     font-weight:bolder;
-}
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    text-shadow: 2px ;
+    filter: drop-shadow(5px 23px 20px yellow);
 
+}
 .logo-middle{
     /* margin:-20px 10px 10px 10px ; */
     margin-left:20px;
@@ -34,13 +38,14 @@
 .grow:hover { transform: scale(1.1); }
 
 .school_name{
-    font-size: 29px;
+    font-size: 27px;
     color: #212121;
     font-weight: 800;
+    margin-bottom: -20px;
 }
 
 .lower_heading{
-    font-size:35px;
+    font-size:27px;
 
 }
 
