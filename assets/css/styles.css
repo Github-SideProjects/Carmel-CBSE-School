@@ -105,6 +105,10 @@ ul.list-inline li {
   display: inline-block;
 }
 
+.aboutus_details{
+  display: flex;
+  text-align: justify;}
+
 /*Animation*/
 .btn,
 a {
@@ -177,7 +181,7 @@ a:hover {
   border-radius: 50px;
 }
 .primary-bg {
-  background-color: #fc9928;
+  background-color: #95a9d6;
 }
 
 /*============================================
@@ -189,8 +193,8 @@ a:hover {
 }
 
 .header-top {
-  background-color: #fc9928;
-  padding: 10px 0;
+  background-color: #03233e;
+  padding: 6px 0;
 }
 
 .ht-address ul li {
@@ -1613,8 +1617,9 @@ span.post-date i {
   position: relative;
   z-index: 1;
   background: url(../images/bg/bg1.jpg);
-  padding: 213px 0 114px;
+  padding: 180px 0 119px;
   background-size: cover;
+  background-position: center;
 }
 
 .crumbs-area:before {
