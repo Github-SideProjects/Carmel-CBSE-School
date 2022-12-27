@@ -13,16 +13,15 @@
 /* Normal desktop :992px. */
 
 .header_name{
-    font-weight:bolder;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 900;
+
+font-size: small;
     text-shadow: 2px ;
     filter: drop-shadow(5px 23px 20px yellow);
 
 }
 .logo-middle{
     /* margin:-20px 10px 10px 10px ; */
-    margin-left:20px;
+    margin-left:10px;
     margin-right:10px;
 
     margin-bottom: 10px;
@@ -33,6 +32,41 @@
 
     
 }
+
+/* TypeWriter Effect */
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 22em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+
+.anim-typewriter2{
+    animation: typewriter 10s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+.anim-typewriter{
+    animation: typewriter 4s steps(32) 1s 1 normal both,
+               blinkTextCursor 500ms steps(32) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 23em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
+/*  */
 
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
@@ -302,7 +336,7 @@
 
     /*Home two*/
     .header-two {
-        padding-top: 23px;
+        padding-top: 20px;
         background: #212121;
     }
 
@@ -360,7 +394,7 @@
 
     /*home three*/
     .header-three {
-        padding-top: 23px;
+        padding-top: 18px;
     }
     .header-three .slicknav_menu .slicknav_icon-bar {
         background-color: #423f3f;
@@ -802,6 +836,7 @@
     .logo {
         text-align: center;
         margin: 20px 0;
+        
    
     }
 
@@ -963,6 +998,10 @@
         margin-top: 173px;
         padding: 98px 0;
     }
+
+    /* .header_name{
+        margin-left:-10px;
+    } */
     .hero-content>span {
         font-size: 19px;
         margin-bottom: 6px;
