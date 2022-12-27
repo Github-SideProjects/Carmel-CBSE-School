@@ -995,8 +995,9 @@ font-size: small;
         margin-top: -48px;
     }
     .hero-area {
-        margin-top: 173px;
+        margin-top: 1px;
         padding: 98px 0;
+        
     }
 
     /* .header_name{
