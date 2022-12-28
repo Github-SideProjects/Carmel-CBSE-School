@@ -639,6 +639,7 @@ a:hover {
 }
 .about-left-content p {
   font-weight: 400;
+  padding-top: 65px;
 }
 
 .abt-right-thumb {
@@ -657,6 +658,7 @@ a:hover {
 .abtt-rt-inner {
   height: 100%;
   display: flex;
+  background-color: white;
 
 }
 
@@ -1613,6 +1615,32 @@ span.post-date i {
 
 #google-map {
   height: 100%;
+}
+
+.map-responsive{
+
+  overflow:hidden;
+
+  padding-bottom:56.25%;
+
+  position:relative;
+
+  height:0;
+
+}
+
+.map-responsive iframe{
+
+  left:0;
+
+  top:0;
+
+  height:100%;
+
+  width:100%;
+
+  position:absolute;
+
 }
 
 /*============================================
