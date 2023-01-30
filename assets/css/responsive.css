@@ -1,5 +1,9 @@
 
 
+.mission{
+    font-size: 18px;
+}
+
 /* (1366x768) WXGA Display */
 
 @media screen and (min-width: 1366px) and (max-width: 1920px) {
@@ -530,6 +534,7 @@ font-size: small;
 /* small mobile :320px. */
 
 @media (max-width: 767px) {
+    
 
     .logo2{
         width:340px;
