@@ -1295,7 +1295,7 @@ span.post-date i {
   position: relative;
   z-index: 1;
   padding: 170px 0;
-  background: url(../images/bg/slider.jpg) center/cover no-repeat;
+  background: url(../images/bg/background.jpg) center/cover no-repeat;
 }
 
 .hero-area:before {
